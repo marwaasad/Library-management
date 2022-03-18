@@ -3,7 +3,7 @@ from datetime import date
 import tkinter as tk
 from tkinter import *
 import mysql.connector as sqltor
-mycon=sqltor.connect(host='localhost',user='root',passwd='marwaasad',database='library')
+mycon=sqltor.connect(host='localhost',user='root',passwd='***',database='library')
 if mycon.is_connected():
     print('successfully connected mysql and python')
 cursor=mycon.cursor()
